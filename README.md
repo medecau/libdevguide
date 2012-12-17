@@ -1,16 +1,21 @@
 Guidelines for writing good libraries/wrappers
 ==============================================
 
-The Wrapper
+Issue
+-----
+ - You have to experience it yourself
+ - Build it for you
+
+Wrapper
 -----------
 
 We are all consenting adults
  
- - Start with a wrapper of the API.
- - Expose all the functionality.
- - Don't hide methods or variables.
- - Prepare for change.
- - Make use of the API docs.
+ - Start with a wrapper of the API
+ - Expose all the functionality
+ - Don't hide methods or variables
+ - Prepare for change
+ - Make use of the API docs
 
 
 
@@ -19,7 +24,7 @@ Abstraction
 
 Humanize!
  
- - If justifiable abstract from your wrapper.
+ - If justifiable abstract from your wrapper
  - Simplify the wrapper API
  - Provide sane defaults
 
@@ -28,9 +33,9 @@ Humanize!
 Never forget
 ------------
 
- - Don't repeat yourself, don't re-invent the wheel.
+ - Don't repeat yourself, don't re-invent the wheel
  - Kill the megamoth - avoid mega monolithic methods
- - No Smurf names - if multiple names begin with the same word, remove it.
+ - No Smurf names - if multiple names begin with the same word, remove it
  - Are you having fun?
 
 
